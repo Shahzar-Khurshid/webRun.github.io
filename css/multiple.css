@@ -1,0 +1,45 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.intro{
+  text-align: center;
+  flex: 0 0 100%;
+}
+
+.code-output-container{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex: 0 0 60%;
+}
+
+.code-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section{
+  width: 100%;
+  height: 200px;
+  background: transparent;
+  border:3px solid grey;
+  margin: 20px 0;
+  overflow: auto;
+}
+
+textarea{
+  resize: none;
+  width: -webkit-fill-available;
+  height: 100px;
+  margin: 20px 0;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-around;
+}

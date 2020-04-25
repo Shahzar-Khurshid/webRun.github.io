@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  background: #1f2227;
+  color: white;
+}
+
+body > div{
+  box-sizing: content-box;
+}
+
+.body-container{
+  display: flex;
+  height: 100vh;
+}
+
+.body-container > div{
+  flex-grow: 1;
+  height: 100%;
+}
+
+.code-container{
+  display: flex;
+  flex-direction: column;
+  /* background: blue; */
+}
+
+.code-container > div{
+  display: flex;
+  flex-grow: 1;
+  min-width: 100%;
+}
+
+.code-area {
+  flex-grow: 1;
+  resize: none;
+  height: 100%;
+  box-sizing: border-box;
+  background: #1f2227;
+  color:white;
+}
+.webpage-container{
+  border-left: 1px solid blueviolet;
+  overflow: auto;
+  max-width: 50%;
+  min-width: 50%;
+  width: 50%;
+}
+
+.show-webpage{
+  padding: 2px;
+  /* background: green; */
+}
